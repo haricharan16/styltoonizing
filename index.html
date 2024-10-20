@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Learning Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-title">
+            Image Cartoonization and Style Transfer
+        </div>
+    </nav>
+
+    <div class="container">
+       
+        <div class="input-section">
+            <div class="input-box">
+                <label for="semanticImage">Semantic Image:</label>
+                <input type="file" id="semanticImage" accept="image/*">
+                <img id="semanticPreview" class="image-preview" alt="Preview of Semantic Image" />
+            </div>
+            <div class="input-box">
+                <label for="stylerImage">Style Image:</label>
+                <input type="file" id="stylerImage" accept="image/*">
+                <img id="stylerPreview" class="image-preview" alt="Preview of Styler Image" />
+            </div>
+        </div>
+
+        <button id="processButton">Process Images</button>
+
+        <div class="output-section">
+            <div class="output-box">
+                <h2>Cartoonized Image:</h2>
+                <img id="cartoonizedImage" class="image-output" alt="Cartoonized Image will appear here" />
+            </div>
+            <div class="output-box">
+                <h2>Image Style Transfer Output:</h2>
+                <img id="styledImage" class="image-output" alt="Styled Image will appear here" />
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
