@@ -11,6 +11,7 @@
    
 3. **Yeldandi Suchethan Reddy** (12242050)  
    - Handled **Website Deployment**, ensuring the application is accessible via a web interface.
+   - created dataset required for training style transfer model.
 
 ---
 ## Project Overview
