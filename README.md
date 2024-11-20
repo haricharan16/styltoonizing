@@ -76,7 +76,7 @@ In this project, the **content image** used for style transfer undergoes a prepr
    - Applying Gaussian blur to reduce noise.
    - Using adaptive thresholding to highlight edges.
   
-![Original Image](C:\Users\Yenneti Nitin Sree\OneDrive\Pictures\Cartoonization\c2.jpg)
+![Cartoon Image using Adaptive Thresholding](Cartoon_using_adaptive_thresholding.png)
 
 
 2. **Canny Edge Detection**  
@@ -84,10 +84,13 @@ In this project, the **content image** used for style transfer undergoes a prepr
    - Converting the image to grayscale.
    - Applying Gaussian blur to smoothen the image.
    - Using the Canny algorithm to detect edges.
+     
+![Cartoon Image using Canny Edge Detection](Cartoon_using_canny.png)
 
 ---
 
 ## Why Switch to Canny Edge Detection?
+From the above two generated images it's clear that there is less noise in the second image , and hence Canny edge detion is being used here.
 
 - **Sharpness**: Canny edge detection provides cleaner and more defined edges compared to adaptive thresholding.  
 - **Consistency**: It works better for creating cartoonized images that maintain a consistent edge style.  
