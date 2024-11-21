@@ -95,7 +95,7 @@ From the above two generated images it's clear that there is less noise in the s
 - **Sharpness**: Canny edge detection provides cleaner and more defined edges compared to adaptive thresholding.  
 - **Consistency**: It works better for creating cartoonized images that maintain a consistent edge style.
 - **Compatibility**: The resulting edges blend well as a content image for the **style transfer project**.
-- 
+
 ---
 ## Style Transfer Overview
 ## CFA-GAN: Cross Fusion Attention and Frequency Loss for Image Style Transfer
