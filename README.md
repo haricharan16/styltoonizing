@@ -93,9 +93,38 @@ In this project, the **content image** used for style transfer undergoes a prepr
 From the above two generated images it's clear that there is less noise in the second image , and hence Canny edge detion is being used here.
 
 - **Sharpness**: Canny edge detection provides cleaner and more defined edges compared to adaptive thresholding.  
-- **Consistency**: It works better for creating cartoonized images that maintain a consistent edge style.  
-- **Compatibility**: The resulting edges blend well as a content image for the **style transfer project**.
+- **Consistency**: It works better for creating cartoonized images that maintain a consistent edge style.
+
+## CFA-GAN: Cross Fusion Attention and Frequency Loss for Image Style Transfer
+
+This style transfer part of the code contains the implementation of **CFA-GAN (Cross Fusion Attention GAN)**, a model proposed in the paper *"CFA-GAN: Cross Fusion Attention and Frequency Loss for Image Style Transfer"*. This innovative method enhances the quality of image style transfer by addressing challenges such as local detail preservation and model inference speed.
 
 ---
+
+
+## Overview
+
+The style transfer part of the code consists of three models:  
+1. **StyleTransferNet**: Used to synthesize images according to the style provided.  
+2. **VggStyleEncoder**: Encodes the artistic styles of the reference images.  
+3. **Discriminator**: Ensures that the generated images are consistent with the reference style image in color matching and artistic style.  
+
+This architecture forms the backbone of **CFA-GAN**, providing a robust solution for efficient and high-quality image style transfer. The model incorporates **Cross Fusion Attention (CFA)** and **Frequency Loss** for:
+- Better local detail preservation.
+- Faster training and inference.
+- High-quality image synthesis that balances content and style features effectively.
+
+For more information, refer to the [paper](https://doi.org/10.1016/j.displa.2023.102588).
+
+---
+
+## Key Contributions
+1. Introduced **Cross Fusion Attention (CFA)** to improve feature extraction and synthesis, allowing the network to balance texture details with semantic content.
+2. Incorporated **Frequency Loss** for enhancing the realism of generated images by addressing shortcomings in the frequency domain.
+3. Achieved state-of-the-art performance on various metrics such as inference speed, deception rate, and user satisfaction.
+
+
+
+
 
 
