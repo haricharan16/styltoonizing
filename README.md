@@ -94,15 +94,14 @@ From the above two generated images it's clear that there is less noise in the s
 
 - **Sharpness**: Canny edge detection provides cleaner and more defined edges compared to adaptive thresholding.  
 - **Consistency**: It works better for creating cartoonized images that maintain a consistent edge style.
-
+- 
+---
+## Style Transfer Overview
 ## CFA-GAN: Cross Fusion Attention and Frequency Loss for Image Style Transfer
 
 This style transfer part of the code contains the implementation of **CFA-GAN (Cross Fusion Attention GAN)**, a model proposed in the paper *"CFA-GAN: Cross Fusion Attention and Frequency Loss for Image Style Transfer"*. This innovative method enhances the quality of image style transfer by addressing challenges such as local detail preservation and model inference speed.
 
 ---
-
-
-## Overview
 
 The style transfer part of the code consists of three models:  
 1. **StyleTransferNet**: Used to synthesize images according to the style provided.  
